@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-section {
+  box-shadow: 4px 4px 8px 4px rgb(242, 242, 76);
+  width: 50%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.input-section #input {
+  width: 70%;
+  outline: none;
+  border: 1px solid rgb(244, 206, 206);
+  height: 40px;
+  font-size: large;
+  padding: 10px;
+}
+.input-section .add-btn {
+  border: none;
+  background-color: yellow;
+  color: brown;
+  font-size: larger;
+  height: 40px;
+  width: 50px;
+  cursor: pointer;
+}
+.note-container {
+  width: 50%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.add-note {
+  display: flex;
+  margin-top: 10px;
+  background-color: yellow;
+  justify-content: space-between;
+  align-items: center;
+}
+.note-item {
+  width: 80%;
+  padding: 10px 16px 10px 16px;
+  color: brown;
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+}
+
+.checked {
+  text-decoration: line-through;
+  background-color: rgb(246, 246, 148);
+}
+.edit,
+.delete {
+  border: 0px;
+  background-color: transparent;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+#popup-section {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  z-index: 1;
+  display: none;
+  width: 50%;
+  background-color: yellow;
+  height: 160px;
+  padding: 20px;
+}
+.popup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.popup-input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.popup-save,
+.popup-discard {
+  width: 60px;
+  height: 22px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px gray;
+}
+.popup-save:active,
+.popup-discard:active,
+.add-btn:active {
+  transform: scale(0.93);
+}
+
+@media screen and (max-width: 700px) {
+  .input-section,
+  .note-container,
+  .popup-section {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .input-section,
+  .note-container,
+  .popup-section {
+    width: 94%;
+  }
+  .note-item {
+    width: 40%;
+  }
+}
