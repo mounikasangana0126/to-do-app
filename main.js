@@ -56,7 +56,7 @@ function addNote() {
         //functionality of edit button
         innerChild1.addEventListener("click", () => {
 
-            container.style.opacity = "0.5";
+            container.style.opacity = "0.2";
 
             let popup = document.createElement("div");
             let popupInput = document.createElement("input");

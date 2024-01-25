@@ -10,6 +10,14 @@
   flex-direction: column;
   align-items: center;
 }
+.heading {
+  width: 200px;
+  text-align: center;
+  background-color: yellow;
+  color: rgb(123, 123, 123);
+  margin-top: 30px;
+  padding: 5px;
+}
 .input-section {
   box-shadow: 4px 4px 8px 4px rgb(242, 242, 76);
   width: 50%;
@@ -71,7 +79,7 @@
 
 #popup-section {
   position: absolute;
-  top: 20%;
+  top: 35%;
   left: 25%;
   z-index: 1;
   display: none;

@@ -13,9 +13,9 @@ A simple web-based To-Do App to manage your tasks. This project is built using H
 
 ## Demo
 
-[View Demo](#) <!-- Add the link to your live demo here -->
+[View Demo](https://to-do-list-app-by-mounika.netlify.app/) <!-- Add the link to your live demo here -->
 
-![To-Do App Demo](./demo.png) <!-- Add a screenshot or gif of your app -->
+![To-Do App Demo](./screenshot.png) <!-- Add a screenshot or gif of your app -->
 
 ## Features
 
