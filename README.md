@@ -56,7 +56,7 @@ Contributions are welcome! Feel free to open issues and pull requests.
 1. Fork the repository.
 2. Create your feature branch:
    ```bash
-   git checkout -b feature/new-feature
+   git checkout -b feature/new-feature.
    ```
 3. Commit your changes:
    ```bash
@@ -64,7 +64,7 @@ Contributions are welcome! Feel free to open issues and pull requests.
    ```
 4. Push to the branch:
    ```bash
-   git push origin feature/new-feature
+   git push origin feature/new-feature.
    ```
 5. Open a pull request.
 
